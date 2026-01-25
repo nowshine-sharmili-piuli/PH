@@ -1,0 +1,34 @@
+.header{
+    height: 200px;
+    background-image: url(pic1.jpg);
+    /* background-image: url('../file image') ->kono folder theke image nite hole*/
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: round;  */
+    /* background-repeat: space; */
+    /* background-repeat: unset; */
+    /* background-size: cover; */
+    background-size: contain;
+}
+h3{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4{
+    font-size: medium;
+    text-decoration: underline;
+}
+.cs{
+    margin: 10px;
+    border: 5px solid saddlebrown;
+    box-shadow: 10px 10px 10px blue;
+}
+.second{
+    /* display: none; eta use korle hide hobe and tar faka jaiga fill-up hoye jaabe*/
+    /* visibility: hidden; eta use korle problem hocche oi jaiga ta faka e thakbe space o theke jaabe*/
+    color: blueviolet;
+}
+.fugit{
+    border: 2px solid black;
+}
