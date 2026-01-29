@@ -1,0 +1,32 @@
+nav>ul{
+   display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: brown;
+    border-radius: 15px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* Nested menu style */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: coral;
+    padding-left: 10px;
+}
+/* menu te hover korle list show */
+nav li:hover .dropdown{
+    display: block;
+}
+
+/* nav li:hover >.dropdown{
+    display: block;
+} (>= immediate child) nested er vhitore nested hover korlei jno show kore*/

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Label</title>
+    <style>
+        label{
+            display: block;
+            /* font-display: swap; */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+       <section>
+         <h3>Fill up the Form</h3>
+         <form>
+            <label for="name">Your Name:
+                <input id="name" type="text" placeholder="Write your name">
+                <!-- <p><em><b>label for and input id should be same</b></em></p> -->
+            </label>
+            <label for="email">Your Email:
+                <input type="email" name="" id="email" placeholder="Your email">
+            </label>
+
+            <fieldset>
+                <legend>Pick Any one</legend>
+                <label for="cse">
+                    <input type="checkbox" name="dept" id="cse">CSE
+                </label>
+                <label for="eee">
+                    <input type="checkbox" name="deptt" id="eee">EEE
+                    <!-- name use korle input a tahle jkono ekta select koraa jabe . it is not applicable for input type=checkbox-->
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one or more</legend>
+                <label for="pithaa">
+                    <input type="radio" name="pith" id="pithaa">Lal Pitha
+                </label>
+                <label for="binni">
+                    <input type="radio" name="pith" id="binni">Jal Puli
+                </label>
+                <label for="puli">
+                    <input type="radio" name="pithh" id="puli">Misti Puli
+                    <!-- if I use same name in input tag, then i can choose any one. on the contrary, if input tag name is different, I can choose both  -->
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <label for="From">Form Making label: </label>
+            <input type="range" name="lll" id="Form">
+            <input type="submit" value="Submit">
+            <label for="sear">What are you searching For</label>
+            <input type="search" name="" id="">
+         </form>
+       </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

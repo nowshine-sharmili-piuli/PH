@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Mega Menu</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        th{
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- ul use kora mandatory -->
+                <li><a href="first.html" target="_blank">First</a></li>
+                <li><a href="second_proper_html.html" target="_blank">Second</a></li>
+                <li>
+                    <a href="third_form.html" target="_blank">Third</a>
+                    <ul class="dropdown">
+                         <li><a href="first.html" target="_blank">First</a></li>
+                <li><a href="second_proper_html.html" target="_blank">Second</a></li>
+                <li><a href="third_form.html" target="_blank">Third</a></li>
+                <li><a href="fourth_table.html" target="_blank">Fourth</a></li>
+                    </ul>
+                </li>
+                <li><a href="fourth_table.html" target="_blank">Fourth</a></li>
+                <!-- li*4>a evhabe dile necessary wise copy hoye jaabe -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <table>
+        <caption>Employee Salary Data</caption>
+      <thead>
+        <tr>
+            <th>No</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+      </thead>
+     <tbody>
+      <tr>
+          <td>1</td>
+          <td>Bill gates</td>
+          <td>Microsoft</td>
+          <td>$1000</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Steve Jobs</td>
+          <td>Apple</td>
+          <td>$1200</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Larry Page</td>
+          <td>Google</td>
+          <td>$1100</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Mark Zuckerberg</td>
+          <td>Facebook</td>
+          <td>$1300</td>
+          <!-- td*4->dile 4 ta td hoye jaabe -->
+      </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+            <td colspan="4">Total Employee: 4000</td>
+        </tr>
+        <tr>
+            <td aria-colspan="4">Total Employee: 4000</td>
+        </tr>
+     </tfoot>
+     </table>
+     <ul>
+        <caption><b><u>Summary</u></b></caption>
+        <li>Table: table</li>
+        <li>table head: thead</li>
+        <li>table body: tbody</li>
+        <li>table footer: tfoot</li>
+        <li>table row: tr</li>
+        <li>table data or table cell: td</li>
+        <li>table head cell: th</li>
+        <li>caption</li>
+     </ul>
+    </main>
+</body>
+</html>
